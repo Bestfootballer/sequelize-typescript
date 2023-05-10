@@ -9,6 +9,3 @@ coverage
 examples
 .DS_Store
 .idea
-*.ts
-*.js.map
-src
