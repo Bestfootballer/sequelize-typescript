@@ -10,13 +10,13 @@
     "lint:fix": "npm run lint -- --fix",
     "markdownlint": "markdownlint '**/*.md' --ignore node_modules",
     "release": "release-it",
-    "postinstall": "npx husky install",
+    "postinstall": "husky install",
     "prepublishOnly": "pinst --disable && npm run build",
     "postpublish": "pinst --enable"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RobinBuschmann/sequelize-typescript.git"
+    "url": "git+https://github.com/Bestfootballer/sequelize-typescript.git"
   },
   "keywords": [
     "orm",
@@ -33,9 +33,9 @@
   "author": "Robin Buschmann",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/RobinBuschmann/sequelize-typescript/issues"
+    "url": "https://github.com/Bestfootballer/sequelize-typescript/issues"
   },
-  "homepage": "https://github.com/RobinBuschmann/sequelize-typescript#readme",
+  "homepage": "https://github.com/Bestfootballer/sequelize-typescript#readme",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "browser": "dist/browser/index.js",
