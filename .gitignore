@@ -11,10 +11,10 @@ node_modules
 #logs
 npm-debug.log
 
-# build
-dist/**/*.js
-dist/**/*.js.map
-dist/**/*.d.ts
+# # build
+# dist/**/*.js
+# dist/**/*.js.map
+# dist/**/*.d.ts
 
 # src
 !src/hooks/shared/hooks.d.ts
