@@ -11,5 +11,4 @@ examples
 .idea
 *.ts
 *.js.map
-!*.d.ts
 src
